@@ -1,0 +1,13 @@
+dynamic external file loader
+append javascript or css file to head of html document
+javascript - call onload
+
+by mark howells-mead / permanenttourist.ch
+v1.0 / 2012-04-06
+
+usage with e.g. jQuery:
+$(document).read(function(){
+	FILELOADER = new dynamicFileLoader();
+	FILELOADER.addScriptFile('myscriptfile.js');
+	FILELOADER.addCSSFile('dynamicrules.css');
+});

@@ -6,7 +6,7 @@ by mark howells-mead / permanenttourist.ch
 v1.0 / 2012-04-06
 
 usage with e.g. jQuery:
-$(document).read(function(){
+$(document).ready(function(){
 	FILELOADER = new dynamicFileLoader();
 	FILELOADER.addScriptFile('myscriptfile.js');
 	FILELOADER.addCSSFile('dynamicrules.css');
